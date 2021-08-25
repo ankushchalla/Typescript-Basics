@@ -46,7 +46,7 @@ function printCoord(pt: Point) {
 }
 printCoord({ x: 100, y: 100 });
 
-// Interfaces: Very similar to types. 
+// Interfaces: Very similar to type aliases. 
 interface PointInterface {
     x: number;
     y: number;
@@ -69,4 +69,4 @@ function printTest(s: "hello" | "Hola" | "Namaste") {
     console.log(s);
 }
 
-// printTest("bye") throws error. 
+// printTest("bye") throws error

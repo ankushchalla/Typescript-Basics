@@ -7,4 +7,4 @@ function greet (person: String, date: Date) {
 greet("Ankush", new Date())
 
 // TS can infer (figure out) types sometimes. 
-let msg = "hello there!"; // hover over msg to see type. 
+let message = "hello there!"; // hover over msg to see type. 
